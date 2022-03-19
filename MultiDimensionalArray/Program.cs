@@ -32,8 +32,9 @@ namespace MultiDimensionalArray
             {
                 for (j = 0; j < a.GetLength(1); j++)
                 {
-                    Console.WriteLine(a[i, j]);
+                    Console.WriteLine(a[i, j] + " ");
                 }
+                Console.WriteLine();
             }
             Console.ReadKey();
 
